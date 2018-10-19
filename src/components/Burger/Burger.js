@@ -9,9 +9,9 @@ const burger = (props) => {
         return [...Array(props.ingredients[igKey])].map((_, i) => {
            return <BurgerIngredient key={igKey + i} type={igKey}/>;
         });
-    })
+    });
     
-    .reduce();
+    //.reduce();
 
     console.log(transformedIngredients);
 
